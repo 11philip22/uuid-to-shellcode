@@ -1,8 +1,7 @@
 """"partially stolen from https://blog.sunggwanchoi.com/eng-uuid-shellcode-execution/"""
-import sys
-import uuid
+from sys import argv
 
-from ShellcodeToUUID import convert_to_uuid
+from shellcode_to_uuid import convert_to_uuid
 
 
 def main(file_path):
@@ -13,6 +12,4 @@ def main(file_path):
 
 
 if __name__ == "__main__":
-    # bin_file_path = sys.argv[1]
-    bin_file_path = 'C:\\Users\\Philip\\source\\repos\\11philip22\\DllShellSimple\\Release\\DllShellSimple.bin'
-    main(bin_file_path)
+    main(argv[1])
