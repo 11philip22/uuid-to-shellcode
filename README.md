@@ -16,6 +16,6 @@ This project demonstrates a Windows technique for decoding and executing a paylo
 4. **Execution**  
    - The payload is executed indirectly by passing its address as a callback to `EnumSystemLocalesA`.
 
-##References
+## References
 - [UUID Shellcode Execution](https://blog.sunggwanchoi.com/eng-uuid-shellcode-execution)
 - [RIFT: Analysing a Lazarus Shellcode Execution Method](https://research.nccgroup.com/2021/01/23/rift-analysing-a-lazarus-shellcode-execution-method)
